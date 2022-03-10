@@ -1,0 +1,20 @@
+#banner{
+	height: 70vh;
+	background-image: url("../image/baner.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 4px;
+}
+
+#title{
+	text-align: center;
+	background-color: #ffffff85;
+	margin: 8px 400px;
+	border-radius: 4px;
+}

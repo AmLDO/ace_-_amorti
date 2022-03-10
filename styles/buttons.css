@@ -1,0 +1,30 @@
+.btn-blue{
+	color: #C3332D;
+	background-color: #012066;
+	border-radius: 6px;
+	padding: 8px 16px;
+	display: block;
+	margin: 0 auto;
+	width: 20%;
+	border: 1px solid blue;
+	transition:  600ms;
+	text-align: center;
+
+}
+.btn-blue:hover {
+	background-color: #C3332D;
+	color: #012066;
+	transition: 1s;
+}
+
+.btn-menu {
+	transition: 1s;
+	color: black;
+}
+
+.btn-menu:hover {
+	background-color: black;
+	color: white;
+	transition: 1s;
+
+}
