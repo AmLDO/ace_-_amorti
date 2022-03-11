@@ -2,18 +2,19 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<meta name="description" content="News, détente, conseils, tous les adeptes de tennis se retouvent ici pour en apprendre plus sur le meilleur sport du monde!">
+	<title>Ace'n'Amorti</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 	<link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
 	<div class="en_tete">
-		<h3>Ace & Amorti 🎾</h3>
 		<div id="menus">
+			<img src="image/logo.png" alt="logo du site" class="logo-ana">
 			<a href="#" id="menu" class="btn-menu"> Articles</a>
 			<a href="#" id="menu" class="btn-menu"> Photos</a>
 			<a href="#" id="menu" class="btn-menu"> Boutique</a>
-			<a href="#" id="menu" class="btn-menu"> Abonnement</a>
+			<a href="#" id="menu" class="btn-menu"> Contact</a>
 		</div>
 		
 	</div>
@@ -22,39 +23,110 @@
 
 	<div id="banner">
 		<div id="title">
-			<h1>Change your life, learn to code</h1>
-			<h2>Le Wagon brings technical skills to creative people</h2>
+			<h1>Le tennis pour tout le monde</h1>
+			<h2>News, détente, conseils, tous les adeptes de tennis se retouvent ici !</h2>
 		</div>
-		<a href="#" class="btn-blue">Apply Now !</a>
 	</div>
 
 <!-- Cards -->
 
-	<div class="container">
-		<h2>Discover our Campuses</h2>
-		<div class="cards">
-			<div class="card">
-				<img src="image/shanghai.jpg" class="card-img" alt="">
-				<h3>Shanghai</h3>
-				<p>Learn to code with us in Shanghai</p>
+	<div class="container-articles">
+		<a href="#"><h2 class="titre">Nos articles</h2></a>
+		<div class="cards-white">
+			<div class="card-articles">
+				<img src="image/wawrinka.jpg" class="card-img" alt="">
+				<h3>L'art du rever</h3>
+				<p>Les plus beaux revers du circuit expliqué pour vous en inspirer !</p>
+				<a href="#" id="menu" class="btn-card"> Lire</a>
 			</div>
-			<div class="card">
-				<img src="image/london.jpg" class="card-img" alt="">
-				<h3>Longon</h3>
-				<p>Learn to code with us in London</p>
+			<div class="card-articles">
+				<img src="image/naomi.jpg" class="card-img" alt="">
+				<h3>Hebdo: 10 tips</h3>
+				<p>Tout ce qu'il faut savoir pour controler ses émotions sur le court.</p>
+				<a href="#" id="menu" class="btn-card"> Lire</a>
 			</div>
-			<div class="card">
-				<img src="image/paris.jpg" class="card-img" alt="">
-				<h3>Paris</h3>
-				<p>Learn to code with us in Paris</p>
+			<div class="card-articles">
+				<img src="image/alcaraz.jpg" class="card-img" alt="">
+				<h3>Année 2022</h3>
+				<p>Le retour de Federer et Osaka? La next gen? Nos attentes !</p>
+				<a href="#" id="menu" class="btn-card"> Lire</a>
 			</div>
 		</div>
 	</div>
 
+<!-- Banner 2 -->
+	<div id="banner2">	
+	</div>
+
+<!-- Cards 2 -->
+
+	<div class="container-boutique">
+		<a href="#"><h2 class="titre">Notre boutique</h2></a>
+		<div class="cards-white">
+			<div class="card-boutique">
+				<img src="image/fissurer.jpeg" class="card-img" alt="">
+				<h3>T-SHIRT "J'PEUX FISSURER"</h3>
+				<p>
+					Ce t-shirt "Je peux fissurer à tout moment" a été conçu pour les passionnés du craquage psychologique qui pètent les plombs après avoir concédé un set sur une balle let, ou quand l'adversaire crie "Allez" après chaque point. <br>
+					<strong>22,50 €</strong>
+				</p>
+				<a href="#" id="menu" class="btn-card"> Acheter</a>
+			</div>
+			<div class="card-boutique">
+				<img src="image/2_2.jpeg" class="card-img" alt="">
+				<h3>SI JE JOUE UN PEU C'EST 2 ET 2</h3>
+				<p>
+					Pour tous les joueurs qui au moment où votre adversaire sert pour le match vous criez " Si je joue un peu c'est 2 et 2 ", 4 points plus tard, vous serrez la main de votre adversaire avec une contre en poche. <br>
+					<strong>24,90 €</strong>
+				</p>
+				<a href="#" id="menu" class="btn-card"> Acheter</a>
+			</div>
+			<div class="card-boutique">
+				<img src="image/gramme.jpeg" class="card-img" alt="">
+				<h3>T-SHIRT "CA JOUE PAS"</h3>
+				<p>
+					Si les bâches commencent à être plus usées que le terrain et que vous ne parvenez pas à mettre la balle plus de deux fois dans le court, alors ce t-shirt est fait pour vous! <br> 
+					<strong>24,90 €</strong>
+				</p>
+				<a href="#" id="menu" class="btn-card"> Acheter</a>
+			</div>
+		</div>
+	</div>
+
+<!-- Carousel -->
+	<div class="carou">
+		<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+		  <div class="carousel-indicators">
+		    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+		    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+		    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+		  </div>
+		  <div class="carousel-inner">
+		    <div class="carousel-item active">
+		      <img src="image/tsitsi_carre.jpg" class="d-block w-100" alt="...">
+		    </div>
+		    <div class="carousel-item">
+		      <img src="image/raducanu.jpg" class="d-block w-100" alt="...">
+		    </div>
+		    <div class="carousel-item">
+		      <img src="image/gaston.jpg" class="d-block w-100" alt="...">
+		    </div>
+		  </div>
+		  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+		    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		    <span class="visually-hidden">Previous</span>
+		  </button>
+		  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+		    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+		    <span class="visually-hidden">Next</span>
+		  </button>
+		</div>
+	</div>
 <!-- Footer -->
 
 	<div class="footer">
-		Follow our campus
+		Double Faute
 	</div>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -16,18 +16,44 @@ a{
 
 body{
 	font-family: 'Roboto', sans-serif;
-	background-color: rgba(0,0,0,0.17);
+	background-image: url("../image/background.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 h1, h2, h3 {
 	font-family: 'Arvo', solid;
 }
 
-.container{
-	width: 80%;
-	margin: 0 auto;
+.titre{
+	color: white;
+	padding-left: 10px;
+	transition: 1s;
+}
+.titre:hover{
+	color: black;
+	font-size: 30px;
+	transition: 1s;
 }
 
-.card-img{
-	width: 80%;
+.container-articles{
+	width: 100%;
+	background-color: #637949;
+	background-size: cover;
+	padding-top: 16px;
+	padding-bottom: 16px;
+}
+
+.container-boutique{
+	width: 100%;
+	background-color: #3768A8;
+	background-size: cover;
+	padding-top: 16px;
+	padding-bottom: 16px;
+}
+
+.carou{
+	width: 50%;
+    margin: 16px auto;
 }
